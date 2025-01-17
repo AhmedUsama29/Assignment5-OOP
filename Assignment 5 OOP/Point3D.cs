@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Assignment_5_OOP
 {
-    internal class Point3D
+    internal class Point3D : ICloneable //The ICloneable interface is part of the .NET framework
+                                        //and requires you to implement the Clone method
     {
 
         #region Attributes
@@ -48,7 +49,10 @@ namespace Assignment_5_OOP
             return $"Point Coordinates: ({X}, {Y}, {Z})";
         }
 
-
+        public object Clone()
+        {
+            return new Point3D(X, Y, Z);
+        }   
 
     }
 }
