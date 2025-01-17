@@ -52,6 +52,18 @@
 
             #endregion
 
+            #region Second Project: Define Class Maths that has four methods: Add, Subtract, Multiply, and Divide, each of them takes two parameters. Call each method in Main ().
+
+            //double num1 = 10;
+            //double num2 = 5;
+
+            //Console.WriteLine($"Addition: {Maths.Add(num1, num2)}");
+            //Console.WriteLine($"Subtraction: {Maths.Subtract(num1, num2)}");
+            //Console.WriteLine($"Multiplication: {Maths.Multiply(num1, num2)}");
+            //Console.WriteLine($"Division: {Maths.Divide(num1, num2)}");
+
+            #endregion
+
 
 
         }
