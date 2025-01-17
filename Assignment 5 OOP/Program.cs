@@ -52,6 +52,35 @@
 
             #endregion
 
+            #region Second Project: Define Class Maths that has four methods: Add, Subtract, Multiply, and Divide, each of them takes two parameters. Call each method in Main ().
+
+            //double num1 = 10;
+            //double num2 = 5;
+
+            //Console.WriteLine($"Addition: {Maths.Add(num1, num2)}");
+            //Console.WriteLine($"Subtraction: {Maths.Subtract(num1, num2)}");
+            //Console.WriteLine($"Multiplication: {Maths.Multiply(num1, num2)}");
+            //Console.WriteLine($"Division: {Maths.Divide(num1, num2)}");
+
+            #endregion
+
+            #region Third Project Q3 : Define All Required Constructors to Produce this output:
+
+            Duration D1 = new Duration(1, 10, 15);
+            Console.WriteLine(D1.ToString());
+
+            Duration D2 = new Duration(3600);
+            Console.WriteLine(D2.ToString());
+
+            Duration D3 = new Duration(7800);
+            Console.WriteLine(D3.ToString());
+
+            Duration D4 = new Duration(666);
+            Console.WriteLine(D4.ToString());
+
+
+            #endregion
+
 
 
         }
